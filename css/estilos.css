@@ -4,11 +4,31 @@
   outline: 0;
   box-sizing: border-box;
 }
-h1{
-  font-size: 40px;
-  color: blueviolet;
+
+nav{
+  background-color: grey;
+  width: 100%;
+  max-width: 2560px;
+  height: 10vh;
+  min-height: 80px;
 }
-p{
-  font-size: 20px;
+header{
+  width: 100%;
+  background-color: aquamarine;
+  height: 90vh;
+  background-image: url("../img/pesca-web-1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+}
+
+h1{
+  color: yellow;
+  font-size: 3rem;
 }
 
